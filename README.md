@@ -1,23 +1,71 @@
-# CODECLAUSE INTERNSHIP
-> Here I have completed total 2 allocated projects are Time Conversion By Country and Exam Seating Arrangement System.
+# CodeClause Java Development Internship Projects 🚀
 
-## Task-1 - Time Conversion By Country ⏰
+This repository contains two projects completed during the CodeClause Java Development Internship:
 
-### Description - 
-This project is to convert the local time zone into the country zone time which is provided by the user as an input. This project uses Date and Time library in Java.
+## 1. Time Conversion By Country ⏰ 
 
-### Software Requirements - 
-VS Code.
+A Java application that converts time between different time zones.
 
-## Task-2 - Exam Seating Arrangement System 💺
+### Features
+- Real-time conversion between any two time zones
+- User-friendly command line interface
+- Supports major time zones worldwide
+- Uses Java's Date and Time libraries
+- Formatted output display (YYYY-MM-DD HH:mm:ss)
 
-### Description - 
-This project is based on the automated seating arrangement of students for exams. It has following 3 files :-
-* Main.java
-* Student.java
-* Exam.java
+### Usage
+```java
+java TimeConversionByCountry
+```
+Then follow the prompts to:
+1. Enter your local time zone (e.g. Asia/Kolkata)
+2. Enter target country time zone (e.g. America/New_York)
 
-There are primarily two entities, the admin and the student. Both entities can log in and register to the system, check and access the system as per the approval granted to them. The admin can see all the relevant details of the students and provide the input to the system taking into consideration the need like the branch, semester, year, subject of the student. Admin will input details like the total students, available classes with the number of seats, etc. After gathering all this information the system will generate a seating arrangement based on students roll number.
+## 2. Exam Seating Arrangement System 💺
 
-### Software Requirements - 
-VS Code.
+An automated system to manage examination seating arrangements.
+
+### Features
+- Admin authentication system
+- Student data management 
+- Automated seat allocation
+- Class-wise seating distribution
+- Roll number based arrangement
+
+### Components
+- Main.java: Contains the main program flow and admin interface
+- Student.java: Student class with attributes and methods
+- Exam.java: Handles seating arrangement logic
+
+### Usage
+```java
+java Main
+```
+
+## Technical Requirements 🛠️
+- Java Development Kit (JDK)
+- Visual Studio Code
+- Command Line Interface
+
+## Setup Instructions 📝
+1. Clone the repository
+2. Open in VS Code
+3. Ensure JDK is installed
+4. Run the desired project using the Java compiler
+
+## Project Structure 📁
+```
+├── Golden Project - Exam Seating Arrangement System directory/
+│   ├── Exam.java
+│   ├── Main.java
+│   └── Student.java
+├── Project 1 - Time Conversion By Country/
+│   └── TimeConversionByCountry.java
+└── README.md
+```
+
+## License 📄
+This project is part of CodeClause Internship Program.
+
+## Author ✍️
+Chhagan Ram Choudhary
